@@ -1,0 +1,154 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  color: #7d97ad;
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #2d3c49;
+  margin: 0; 
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  display: flex;
+  min-height: 56px;
+  transition: min-height 0.3s;
+  width: 100%;
+}
+.header__logo__cartridge {
+  width: 10%;
+}
+
+.header__logo {
+  height: 60px;
+  margin-left: 4em;
+  margin-right: 1em;
+  margin-top: 24px;
+  vertical-align: top;
+}
+
+.header__cartridge{
+  margin-right: 4em;
+  width:90%;
+}
+
+.header__title {
+  font-size: 4em;
+  font-weight: 300;
+  margin-top: 12px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.header__subtitle {
+  font-size: 2em;
+  font-weight: 300;
+  text-align: right;
+}
+
+.line {
+  display: block;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 4em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+/*
+ *
+ * Hero
+ *
+ */
+
+.hero {
+  background-image: url("../images/hero.png");
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 1em;
+  order: 1;
+  width: 100%;
+}
+
+/*
+ *
+ * Hero
+ *
+ */
+.project {
+  height: 300px;
+  margin: auto;
+  order: 2;
+  width: 330px;
+}
+
+.project__image{
+  background-position: center;
+  background-size: cover;
+  height: 85%;
+}
+
+.project1 {
+  background-image: url("../images/project1.png");
+}
+
+.project2 {
+  background-image: url("../images/project2.png");
+}
+
+.project3 {
+  background-image: url("../images/project3.png");
+}
+
+
+.project__text {
+  font-family: Raleway;
+  height: 15%;
+  text-align: center;
+}
+
+
+.project__name{
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.project__description{
+  font-size: 1em;
+}

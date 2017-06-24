@@ -1,0 +1,155 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #7d97ad;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+  color: #2d3c49;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  min-height: 56px;
+  transition: min-height 0.3s;
+  display: flex;
+  width: 100%;
+}
+.header__logo__cartridge {
+  width: 10%;
+}
+
+.header__logo {
+  height: 30px;
+  margin-right: 1em;
+  margin-left: 4em;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+.header__cartridge{
+  margin-right: 4em;
+  vertical-align: right;
+  width:90%;
+}
+
+.header__title {
+  margin-top: 12px;
+  font-weight: 100;
+  font-size: 2em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.header__subtitle {
+  font-weight: 100;
+  font-size: 1em;
+  text-align: right;
+}
+
+.line {
+  margin-left: 4em;
+  margin-right: 4em;
+  display: block;
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+main {
+  margin-left: 4em;
+  margin-right: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 4em;
+  justify-content: space-around;
+}
+
+/*
+ *
+ * Hero
+ *
+ */
+
+.hero {
+  width: 100%;
+  background-image: url("../images/hero.png");
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 1em;
+  order: 1;
+}
+
+/*
+ *
+ * Content
+ *
+ */
+
+.project {
+  width: 330px;
+  height: 400px;
+  order: 2;
+  margin:auto;
+}
+
+.project__image{
+  height: 85%;
+  background-size: cover;
+  background-position: center;
+}
+
+.project1 {
+  background-image: url("../images/project1.png");
+}
+
+.project2 {
+  background-image: url("../images/project2.png");
+}
+
+.project3 {
+  background-image: url("../images/project3.png");
+}
+
+.project__text {
+  height: 15%;
+  text-align: center;
+  font-family: Raleway;
+}
+
+
+.project__name{
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.project__description{
+  font-size: 1em;
+}
